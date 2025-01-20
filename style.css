@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Geo:ital@0;1&family=Grandiflora+One&family=Sixtyfour+Convergence&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+20&display=swap");
+
+.main-container {
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGF5c2FnZSUyMGRlJTIwbnVpdHxlbnwwfHwwfHx8MA%3D%3D");
+  border-radius: 20px;
+  padding: 20px;
+  color: rgb(232, 229, 229);
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 1px 20px black;
+  margin-top: 30px;
+  font-family: "Geo", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 450px;
+  object-fit: contain;
+}
+.title-container {
+  color: white;
+  font-family: "Jersey 20", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.second-container {
+  font-family: "Stardos Stencil", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-container {
+  font-size: 42px;
+  width: 400px;
+}
+.section-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+}
+.sectiion-container {
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 20px;
+}
+.img-container {
+  width: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+.list-container {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.icon-container {
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  padding: 2px;
+  margin-top: 20px;
+}
+.icon-container:hover {
+  color: orangered;
+  transition-duration: 1s;
+}
+.icon-section {
+  display: flex;
+  gap: 20px;
+}
+.copyright-container {
+  color: rgb(255, 255, 255);
+}
